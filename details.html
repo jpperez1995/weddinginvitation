@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- PAGE 1 (GIF + Overlay) -->
+<div class="page">
+    <img src="images/bg.gif" class="gif" alt="">
+    <img src="images/overlay.png" class="overlay" alt="">
+</div>
+
+<!-- PAGE 2 -->
+<div class="page">
+    <img src="images/attire.png" class="image" alt="">
+</div>
+
+<!-- PAGE 3 (Clickable) -->
+<a id="rsvpLink" target="_blank" rel="noopener noreferrer" class="page">
+    <img src="images/rsvp.jpg" class="image" alt="RSVP">
+</a>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
+
+document.getElementById("rsvpLink").href =
+    "rsvp.html?id=" + encodeURIComponent(id);
+</script>
+
+</body>
+</html>

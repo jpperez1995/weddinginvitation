@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>RSVP</title>
+
+<link rel="stylesheet" href="rsvp.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1 style="font-family: Century, sans-serif; font-size: 60px;" >RSVP</h1>
+
+<p id="welcomeText">Hi 
+<span id="guestName">Loading guest...</span> 
+<span>, we have reserved </span> 
+<span id="reservedSeats">Loading seat...</span> 
+<span> seat/s for you. </span> 
+</p>
+
+<form id="rsvpForm">
+
+<label>
+
+Will you attend?
+
+</label>
+
+<select id="attendance" required>
+
+<option value="">Select</option>
+
+<option value="Yes">Yes</option>
+
+<option value="No">No</option>
+
+</select>
+
+<label>
+
+Number Attending
+
+</label>
+
+<select id="attendingSeats" required>
+
+</select>
+
+<button type="submit">
+
+Submit RSVP
+
+</button>
+
+</form>
+
+<p id="status"></p>
+
+</div>
+
+<script src="rsvp.js"></script>
+
+</body>
+
+</html>
