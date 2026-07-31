@@ -1,60 +1,41 @@
 *{
-
 margin:0;
 padding:0;
 box-sizing:border-box;
-
 }
 
 body{
-
-font-family:"Century",serif;
-
+font-family:"calibri",serif;
 /*background:url("images/bg.jpg");
-
 background-repeat:repeat;*/
-
-background-color: #f2f0ef;
-
+background-color: #e6ddd5;
 font-size:12px;
-
 color:#000;
-
 display:flex;
-
 justify-content:center;
-
 align-items:center;
-
 min-height:100vh;
-
 padding:40px;
-
 }
 
 .container{
-
 max-width:550px;
-
 width:100%;
-
 text-align:center;
-
 }
 
 h1{
-
 margin-bottom:30px;
-
+}
+.container{
+    letter-spacing:1px;
 }
 
 .seatLabel{
-
 margin-top:20px;
-
 font-size:12px;
-
 }
+
 
 /*#reservedSeats{
 
@@ -74,67 +55,47 @@ margin:15px 0 35px;
     height: auto;
 }
 
+
 #welcomeText{
-    margin-top: 50px;
-    margin-bottom: 50px;
+margin-top: 50px;
+margin-bottom: 50px;
 }
 
+
 form{
-
 display:flex;
-
 flex-direction:column;
-
 gap:15px;
-
 }
 
 select,
 textarea,
 button{
-
-    width:70px;
-
-    margin:0 auto;
-
-    display:block;
-
-    text-align:center;
-
+width:70px;
+margin:0 auto;
+display:block;
+text-align:center;
 padding:8px;
-
-font-family:"Century";
-
+font-family:"calibri";
 font-size:12px;
-
 border:none;
-
 outline:none;
-
 background:transparent;
-
 }
 
+
 button{
-
 cursor:pointer;
-
-background:#000;
-
-color:white;
-
+background:#38261a;
+color:#e6ddd5;
 }
 
 button:hover{
-
 opacity:.8;
-
 }
 
 #status{
-
 margin-top:25px;
-
-font-size:18px;
-
+font-family:"calibri";
+font-size:12px;
 }
