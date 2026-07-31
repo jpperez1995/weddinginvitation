@@ -20,17 +20,37 @@
     <img src="images/detailsattire.png" class="image" alt="">
 </div>
 
-<!-- PAGE 3 (Clickable) -->
+<!-- PAGE 3 (Clickable) 
 <a id="rsvpLink" target="_blank" rel="noopener noreferrer" class="page">
     <img src="images/rsvp.png" class="image" alt="RSVP">
-</a>
+</a>-->
+
+<div class="page">
+
+    <!-- Single Image -->
+    <img src="images/rsvp1.png" class="image" alt="">
+
+    <!-- Top 70% -->
+    <a id="rsvpLink" target="_blank" rel="noopener noreferrer" class="top-click"></a>
+
+    <!-- Bottom 30% -->
+    <a id="faqLink" target="_blank" rel="noopener noreferrer" class="bottom-click"></a>
+
+</div>
+
 
 <script>
+
 const params = new URLSearchParams(window.location.search);
+
 const id = params.get("id");
 
 document.getElementById("rsvpLink").href =
     "rsvp.html?id=" + encodeURIComponent(id);
+
+document.getElementById("faqLink").href =
+    "faqs.html?id=" + encodeURIComponent(id);
+
 </script>
 
 </body>

@@ -64,6 +64,16 @@ margin:15px 0 35px;
 
 }*/
 
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header img {
+    width: 100px;      /* Adjust as needed */
+    height: auto;
+}
+
 #welcomeText{
     margin-top: 50px;
     margin-bottom: 50px;

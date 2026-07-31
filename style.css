@@ -18,6 +18,66 @@ body{
     flex-direction:column;
     align-items:center;
 }
+.split-page{
+
+    width:100vw;
+
+    aspect-ratio:9/16;
+
+    display:flex;
+
+    flex-direction:column;
+
+    overflow:hidden;
+
+    margin:0 auto;
+
+}
+
+
+.top-click{
+
+    position:absolute;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:60%;
+
+    z-index:10;
+
+}
+
+.bottom-click{
+
+    position:absolute;
+
+    left:0;
+    bottom:0;
+
+    width:100%;
+    height:40%;
+
+    z-index:10;
+
+}
+
+
+/* IMAGES */
+
+.split-image{
+
+    width:100%;
+
+    height:100%;
+
+    display:block;
+
+    object-fit:cover;
+
+}
+
 
 /* COVER */
 
